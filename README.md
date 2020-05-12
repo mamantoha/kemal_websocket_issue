@@ -1,4 +1,4 @@
-This repo is a tool to help test the [websocket issue](https://github.com/kemalcr/kemal/) reported to the Kemal bug tracker.
+This repo is a tool to help test the [websocket issue](https://github.com/kemalcr/kemal/pull/568) reported to the Kemal bug tracker.
 
 * Clone this repository
 * `shards install` inside project directory

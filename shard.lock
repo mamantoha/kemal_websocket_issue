@@ -5,7 +5,7 @@ shards:
     version: 0.1.4
 
   kemal:
-    path: ../kemal
+    github: kemalcr/kemal
     version: 0.26.1
 
   kilt:
