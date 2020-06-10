@@ -5,7 +5,14 @@ SOCKETS = [] of HTTP::WebSocket
 
 spawn do
   loop do
-    SOCKETS.each { |socket| socket.send("ping") }
+    puts "ping"
+    SOCKETS.each do |socket|
+      begin
+        socket.send("ping")
+      rescue
+        nil
+      end
+    end
     sleep 1
   end
 end
