@@ -9,11 +9,12 @@ spawn do
     SOCKETS.each do |socket|
       begin
         socket.send("ping")
-      rescue
+      rescue e
+        puts e.message
         nil
       end
     end
-    sleep 1
+    sleep 5
   end
 end
 
