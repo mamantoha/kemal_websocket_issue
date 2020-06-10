@@ -1,6 +1,3 @@
-require "flate"
-require "gzip"
-require "zlib"
 require "kemal"
 require "json"
 
