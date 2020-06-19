@@ -5,3 +5,5 @@ dependencies:
   kemal:
     github: kemalcr/kemal
     branch: master
+    # github: mamantoha/kemal
+    # branch: fix-websocket-issue
